@@ -64,15 +64,15 @@ export default function NavHome() {
            
         
           <div class="navbar-nav nav">
-          <a href="Home" class="nav-item  nav-link" active-color="orange">Home</a>
-          <a href="Fp1" class="nav-item nav-link" active-color="green">Band</a>
-          <a href="artistmain" class="nav-item nav-link" active-color="blue">Artist</a>
-          <a href="gmain" class="nav-item nav-link" active-color="red">Gigs</a>
-          <a href="studiofiltermain" class="nav-item nav-link" active-color="rebeccapurple">Studio</a>
-          <a href="option" class="nav-item nav-link" active-color="red">Shop</a>
-          <a href="main" class="nav-item nav-link" active-color="red">Post Event</a>
-          <a href="login" class="nav-item nav-link offset-md-1  " active-color="red"> Login/Signp</a>
-          <span class="nav-indicator"></span>
+          <a href="/Home" class="nav-item  nav-link" active-color="orange">Home</a>
+          <a href="/Fp1" class="nav-item nav-link" active-color="green">Band</a>
+          <a href="/artistmain" class="nav-item nav-link" active-color="blue">Artist</a>
+          <a href="/gmain" class="nav-item nav-link" active-color="red">Gigs</a>
+          <a href="/studiofiltermain" class="nav-item nav-link" active-color="rebeccapurple">Studio</a>
+          <a href="/option" class="nav-item nav-link" active-color="red">Shop</a>
+          <a href="/main" class="nav-item nav-link" active-color="red">Post Event</a>
+          <a href="/login" class="nav-item nav-link offset-md-1  " active-color="red"> Login/Signp</a>
+          <span class="/nav-indicator"></span>
         </div>
         
                               
