@@ -69,20 +69,22 @@ class forgetpassword extends React.Component {
 
     render() {
       return (
-        <div>
+        <div >
+            <div class="container" id="container">
           <p>Enter your email to recover your password</p>
         <Form onSubmit={this.submitFormAdd}>
           <FormGroup>
         
             <Label for="email">Email</Label>
-            <Input type="email" name="email" id="email" onChange={this.onChange} value={this.state.email === null ? '' : this.state.email} />
+            <Input className="input"  type="email" name="email" id="email" onChange={this.onChange} value={this.state.email === null ? '' : this.state.email} />
           </FormGroup>
  
           <Recaptcha sitekey="6LeXDNcUAAAAAP8bwsYprEUeLhXEmxdAPZEW0rLF" render="explicit" onloadCallback={this.recaptchaLoaded} verifyCallback={this.verifyCallback}/>
 
-          <Button type="submit">Submit</Button>
+          <button className="button" type="submit">Submit</button >
           
         </Form>
+        </div>
         </div>
       );
     }

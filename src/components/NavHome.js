@@ -71,7 +71,8 @@ export default function NavHome() {
           <a href="/studiofiltermain" class="nav-item nav-link" active-color="rebeccapurple">Studio</a>
           <a href="/option" class="nav-item nav-link" active-color="red">Shop</a>
           <a href="/main" class="nav-item nav-link" active-color="red">Post Event</a>
-          <a href="/login" class="nav-item nav-link offset-md-1  " active-color="red"> Login/Signp</a>
+      
+          {state.loginstatus!=null? <div> <a class="nav-item nav-link" href="/"><b>{state.name}</b></a>  <a class="nav-item nav-link" href="/" onClick={clickfunction}><b>|| logout</b></a></div>: <a class="nav-item nav-link" href="/login">Login/Signp</a>}
           <span class="/nav-indicator"></span>
         </div>
         
